@@ -17,98 +17,96 @@ export const LANDING_NAV_LINKS: NavLink[] = [
 export const PRODUCTS: Product[] = [
   {
     id: 1,
-    name: 'Plano Básico',
-    price: 'R$ 29/mês',
-    features: ['Recurso Essencial 1', 'Recurso Essencial 2', 'Suporte por Email'],
-  },
-  {
-    id: 2,
-    name: 'Plano Pro',
-    price: 'R$ 79/mês',
-    features: ['Todos os recursos do Básico', 'Recurso Avançado 1', 'Recurso Avançado 2', 'Suporte Prioritário'],
+    name: 'Acesso Vitalício - Público Geral',
+    price: '12x de R$138,80 ou R$1388 à vista',
+    features: [
+      'Acesso vitalício à Comunidade Lendár[IA]',
+      'Mais de 25 cursos completos sobre IA, negócios e mentalidade',
+      'E-books estratégicos de IA incluídos',
+      'Bônus físicos para os primeiros compradores',
+      '7 dias de garantia incondicional'
+    ],
     isFeatured: true,
   },
   {
-    id: 3,
-    name: 'Plano Empresa',
-    price: 'R$ 299/mês',
-    features: ['Todos os recursos do Pro', 'Dashboard de Equipe', 'Integrações Premium', 'Gerente de Conta Dedicado'],
-  },
+    id: 2,
+    name: 'Acesso Vitalício - Desconto para Alunos',
+    price: '12x de R$98,80 ou R$988 à vista',
+    features: [
+      'Todas as vantagens do plano geral',
+      '25% de desconto exclusivo para alunos',
+      'Acesso permanente e atualizações constantes',
+      'Suporte prioritário dentro da Comunidade Lendár[IA]'
+    ],
+  }
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
   {
-    quote: 'Este produto transformou completamente nosso fluxo de trabalho. Não consigo imaginar trabalhar sem ele.',
-    author: 'Ana Silva',
-    role: 'CEO, Tech Solutions',
-    avatarUrl: 'https://picsum.photos/id/1011/100/100',
+    quote: 'A Comunidade Lendár[IA] mudou completamente minha visão sobre negócios e inteligência artificial. Hoje aplico IA em todos os meus processos.',
+    author: 'Felipe Andrade',
+    role: 'Empreendedor e Aluno Lendár[IA]',
+    avatarUrl: 'https://picsum.photos/id/1005/100/100',
   },
   {
-    quote: 'O suporte ao cliente é excepcional e a plataforma é incrivelmente fácil de usar. Recomendo fortemente!',
-    author: 'Carlos Pereira',
-    role: 'Diretor de Marketing, Creative Co.',
-    avatarUrl: 'https://picsum.photos/id/1012/100/100',
+    quote: 'Com as aulas e a comunidade, consegui automatizar minha operação e escalar meu faturamento. A energia dentro da comunidade é surreal!',
+    author: 'Mariana Ribeiro',
+    role: 'Profissional de Marketing Digital',
+    avatarUrl: 'https://picsum.photos/id/1006/100/100',
   },
   {
-    quote: 'Um divisor de águas para nossa produtividade. O ROI foi quase imediato.',
-    author: 'Juliana Costa',
-    role: 'Gerente de Operações, Innovate Ltda.',
-    avatarUrl: 'https://picsum.photos/id/1013/100/100',
-  },
-  {
-    quote: 'Design elegante, funcionalidade poderosa. A equipe por trás disso realmente entende as necessidades do cliente.',
-    author: 'Ricardo Mendes',
-    role: 'Desenvolvedor Frontend, Web Crafters',
-    avatarUrl: 'https://picsum.photos/id/1014/100/100',
-  },
+    quote: 'Nunca vi um conteúdo tão completo sobre IA aplicada a negócios. Vale cada centavo do investimento.',
+    author: 'Lucas Fernandes',
+    role: 'Consultor em Transformação Digital',
+    avatarUrl: 'https://picsum.photos/id/1008/100/100',
+  }
 ];
 
 export const FAQ_DATA = [
-    {
-        question: 'O teste grátis realmente é grátis?',
-        answer: 'Sim, o nosso teste de 7 dias é 100% gratuito e não exige cartão de crédito. Você terá acesso a todos os recursos do plano Pro para experimentar a plataforma sem compromissos.'
-    },
-    {
-        question: 'Posso cancelar a qualquer momento?',
-        answer: 'Com certeza. Você pode cancelar sua assinatura a qualquer momento, diretamente no seu painel de controle, com apenas alguns cliques. Sem burocracia ou taxas de cancelamento.'
-    },
-    {
-        question: 'Funciona offline?',
-        answer: 'Nossa plataforma é baseada na nuvem e requer uma conexão com a internet para a maioria das funcionalidades. No entanto, estamos desenvolvendo recursos que permitirão o acesso a certas informações offline.'
-    },
-    {
-        question: 'Tem integração com outras ferramentas?',
-        answer: 'Sim! Oferecemos integrações nativas com diversas ferramentas populares do mercado, como Slack, Google Drive, Trello e muitas outras. Além disso, nossa API está disponível para integrações personalizadas.'
-    },
-    {
-        question: 'Meus dados ficam seguros?',
-        answer: 'A segurança dos seus dados é nossa maior prioridade. Utilizamos criptografia de ponta (AES-256), servidores seguros e seguimos as melhores práticas de segurança do mercado para garantir que suas informações estejam sempre protegidas.'
-    }
+  {
+    question: 'Já comprei outros cursos e não assisti. Por que aqui seria diferente?',
+    answer: 'A Comunidade Lendár[IA] não é apenas um curso. É um ecossistema com mentorias, desafios e uma comunidade ativa que garante acompanhamento e resultados.'
+  },
+  {
+    question: 'É muito conteúdo. Vou ficar perdido?',
+    answer: 'O conteúdo é estruturado com trilhas de aprendizado e suporte, permitindo que você siga no seu ritmo sem se perder.'
+  },
+  {
+    question: 'Quais as formas de pagamento?',
+    answer: 'Você pode pagar via cartão de crédito em até 12x ou à vista via Pix ou boleto bancário.'
+  },
+  {
+    question: 'Funciona no celular?',
+    answer: 'Sim! Todo o conteúdo pode ser acessado via celular, tablet ou computador.'
+  },
+  {
+    question: 'Tenho garantia?',
+    answer: 'Sim. Você tem 7 dias de garantia incondicional. Caso não se sinta satisfeito, reembolsamos 100% do valor.'
+  },
+  {
+    question: 'Por onde chega o acesso?',
+    answer: 'Assim que o pagamento for confirmado, você receberá um e-mail com o acesso imediato à plataforma.'
+  },
+  {
+    question: 'Já sou aluno, tenho benefício?',
+    answer: 'Sim! Alunos têm desconto especial de 25% na oferta vitalícia.'
+  }
 ];
 
 export const FOOTER_LINKS = {
-    company: {
-        name: 'Produto x',
-        description: 'Transformando produtividade em resultados desde 2020.',
-        cnpj: 'CNPJ: 12.345.678/0001-90',
-        address: 'Endereço: Rua das Flores, 123 - São Paulo/SP',
-    },
-    support: [
-        { name: 'suporte@taskflowpro.com', href: 'mailto:suporte@taskflowpro.com' },
-        { name: '(11) 3333-4444', href: 'tel:+551133334444' },
-        { name: 'Central de Ajuda', href: '#' },
-        { name: 'Status do Sistema', href: '#' },
-    ],
-    legal: [
-        { name: 'Termos de Uso', href: '/termos-de-servico' },
-        { name: 'Política de Privacidade', href: '/politica-de-privacidade' },
-        { name: 'Política de Cookies', href: '/politica-de-cookies' },
-        { name: 'Política de Reembolso', href: '/devolucoes-e-trocas' },
-    ],
-    enterprise: [
-        { name: 'Sobre Nós', href: '#' },
-        { name: 'Carreiras', href: '#' },
-        { name: 'Imprensa', href: '#' },
-        { name: 'Contato', href: '/contato' },
-    ],
+  company: {
+    name: 'Academia Lendár[IA]',
+    description: 'Transformando carreiras e negócios com Inteligência Artificial aplicada desde 2019.',
+  },
+  support: [
+    { name: 'suporte@academialendaria.com', href: 'mailto:suporte@academialendaria.com' },
+  ],
+  legal: [
+    { name: 'Termos de Uso', href: '/termos-de-uso' },
+    { name: 'Política de Privacidade', href: '/politica-de-privacidade' },
+  ],
+  enterprise: [
+    { name: 'Sobre o Fundador', href: '#founder' },
+    { name: 'Contato', href: '/contato' },
+  ],
 };
